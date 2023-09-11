@@ -49,6 +49,7 @@ def h1(s):
     return res
 
 def h3(s):
+    goal = (1, 2, 3, 4, 5, 6, 7, 8, 0)
     board, _, _ = s
     res = 0
     for i in range(9):
